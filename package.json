@@ -8,6 +8,9 @@
     "postversion": "git push && git push --tags",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
+  "bin": {
+    "tektrans-machine-id": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tektrans/tektrans-machine-id.git"
