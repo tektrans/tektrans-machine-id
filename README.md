@@ -46,6 +46,19 @@ $ node index.js --original
               hashed value (sha-256), default: false                   [boolean]
 ```
 
+## Old Node.js before v12
+Because of latest yargs minimum support is Node.js v12,
+we provide alternative version without yargs options support.
+
+```
+$ npx tektrans-machine-id-old
+```
+
+And to show original (non sha256 hashed):
+```
+$ npx tektrans-machine-id-old-original
+```
+
 ## Changelog
 See `CHANGELOG.md` file.
 

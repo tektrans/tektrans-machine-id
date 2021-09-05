@@ -9,7 +9,9 @@
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "bin": {
-    "tektrans-machine-id": "./index.js"
+    "tektrans-machine-id": "./index.js",
+    "tektrans-machine-id-old": "./index-old-node.js",
+    "tektrans-machine-id-old-original": "./index-old-node-original.js"
   },
   "repository": {
     "type": "git",
