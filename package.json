@@ -1,6 +1,6 @@
 {
   "name": "tektrans-machine-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to extract hashed machine-id, compatible with Tektrans License Manager",
   "main": "index.js",
   "scripts": {
