@@ -51,12 +51,12 @@ Because of latest yargs minimum support is Node.js v12,
 we provide alternative version without yargs options support.
 
 ```
-$ npx tektrans-machine-id-old
+$ npx -p tektrans-machine-id tektrans-machine-id-old
 ```
 
 And to show original (non sha256 hashed):
 ```
-$ npx tektrans-machine-id-old-original
+$ npx -p tektrans-machine-id tektrans-machine-id-old-original
 ```
 
 ## Changelog
