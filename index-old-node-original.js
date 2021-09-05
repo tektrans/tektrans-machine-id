@@ -10,5 +10,5 @@ const { machineIdSync } = require('node-machine-id');
 
 // eslint-disable-next-line no-console
 console.log(
-    machineIdSync(),
+    machineIdSync(true),
 );
